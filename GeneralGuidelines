@@ -1,0 +1,52 @@
+General Guidelines: 
+
+Building and Running the Project
+This project includes a Makefile for automating the build and execution process.
+
+Step 1: Clone the Repository
+Clone the repository and navigate to the project directory:
+
+bash
+Copy code
+git clone <repository-url>
+cd <repository-directory>
+Step 2: Build the Project
+Compile the benchmarking and plotting programs using:
+
+bash
+Copy code
+make
+Step 3: Run the Benchmarking Program
+Run the benchmarking program to generate sorting results:
+
+bash
+Copy code
+./sorting_tests
+This will create a CSV file named sorting_results.csv with the measured times for all algorithms and scenarios.
+
+Step 4: Generate Graphs
+Run the graphing program to visualize the results:
+
+bash
+Copy code
+./plot_results
+The performance comparison graph will be saved as sorting_results.png in the project directory.
+
+File Descriptions
+main.cpp: Implements the sorting algorithms and benchmarking functionality.
+plot.cpp: Generates comparison graphs using the data from sorting_results.csv.
+Makefile: Automates the build, run, and cleanup processes.
+sorting_results.csv: Contains the measured times for sorting algorithms across different datasets (generated after running sorting_tests).
+sorting_results.png: Visualization of sorting algorithm performance (generated after running plot_results).
+Cleaning Up
+Remove compiled binaries and intermediate files by running:
+
+bash
+Copy code
+make clean
+Performance Observations
+The performance of sorting algorithms varies depending on the scenario:
+
+Acknowledgements
+The project uses matplotlibcpp for generating graphs.
+Sorting algorithm implementations are based on standard methodologies.
