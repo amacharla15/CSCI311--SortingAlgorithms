@@ -157,10 +157,10 @@ void plotResults(const vector<int>& sizes,
         quickMedianAverage.push_back(row[2]);
     }
 
-    // Plot sorting results
+     Plot sorting results
     plt::figure();
 
-/*
+
     plt::plot(sizesDouble, bubbleSorted, {{"label", "Bubble Sort - Sorted"}});
     plt::plot(sizesDouble, bubbleReversed, {{"label", "Bubble Sort - Reversed"}});
     plt::plot(sizesDouble, bubbleAverage, {{"label", "Bubble Sort - Average"}});
@@ -172,13 +172,13 @@ void plotResults(const vector<int>& sizes,
     plt::plot(sizesDouble, selectionSorted, {{"label", "Selection Sort - Sorted"}});
     plt::plot(sizesDouble, selectionReversed, {{"label", "Selection Sort - Reversed"}});
     plt::plot(sizesDouble, selectionAverage, {{"label", "Selection Sort - Average"}});
-*/
+
 
     
 
-    //plt::plot(sizesDouble, mergeSorted, {{"label", "Merge Sort - Sorted"}});
-    //plt::plot(sizesDouble, mergeReversed, {{"label", "Merge Sort - Reversed"}});
-    //plt::plot(sizesDouble, mergeAverage, {{"label", "Merge Sort - Average"}});
+    plt::plot(sizesDouble, mergeSorted, {{"label", "Merge Sort - Sorted"}});
+    plt::plot(sizesDouble, mergeReversed, {{"label", "Merge Sort - Reversed"}});
+    plt::plot(sizesDouble, mergeAverage, {{"label", "Merge Sort - Average"}});
 
     
     plt::plot(sizesDouble, quickRandomSorted, {{"label", "QuickSort Random - Sorted"}});
