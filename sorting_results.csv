@@ -1,0 +1,97 @@
+Size,Algorithm,Case,Time (seconds)
+10,Bubble Sort,Sorted,4e-07
+10,Bubble Sort,Reversed,9e-07
+10,Bubble Sort,Average,8.03367e-07
+10,Insertion Sort,Sorted,2e-07
+10,Insertion Sort,Reversed,6e-07
+10,Insertion Sort,Average,3.667e-07
+10,Selection Sort,Sorted,6e-07
+10,Selection Sort,Reversed,7e-07
+10,Selection Sort,Average,6.50067e-07
+10,Merge Sort,Sorted,4.7e-06
+10,Merge Sort,Reversed,3.8e-06
+10,Merge Sort,Average,3.56347e-06
+10,QuickSort-Random,Sorted,1.3e-06
+10,QuickSort-Random,Reversed,9e-07
+10,QuickSort-Random,Average,7.56733e-07
+10,QuickSort-Min,Sorted,7e-07
+10,QuickSort-Min,Reversed,7e-07
+10,QuickSort-Min,Average,5.667e-07
+10,QuickSort-Max,Sorted,1.1e-06
+10,QuickSort-Max,Reversed,1e-06
+10,QuickSort-Max,Average,6.16667e-07
+10,QuickSort-Median,Sorted,7.001e-06
+10,QuickSort-Median,Reversed,8e-06
+10,QuickSort-Median,Average,5.88357e-06
+100,Bubble Sort,Sorted,5e-07
+100,Bubble Sort,Reversed,7.9103e-05
+100,Bubble Sort,Average,6.83125e-05
+100,Insertion Sort,Sorted,1e-06
+100,Insertion Sort,Reversed,3.5901e-05
+100,Insertion Sort,Average,1.90976e-05
+100,Selection Sort,Sorted,2.7101e-05
+100,Selection Sort,Reversed,2.7601e-05
+100,Selection Sort,Average,3.20213e-05
+100,Merge Sort,Sorted,4.9702e-05
+100,Merge Sort,Reversed,4.4601e-05
+100,Merge Sort,Average,5.02686e-05
+100,QuickSort-Random,Sorted,1.1201e-05
+100,QuickSort-Random,Reversed,1.1e-05
+100,QuickSort-Random,Average,1.27871e-05
+100,QuickSort-Min,Sorted,1.7901e-05
+100,QuickSort-Min,Reversed,1.79e-05
+100,QuickSort-Min,Average,9.5837e-06
+100,QuickSort-Max,Sorted,7.5202e-05
+100,QuickSort-Max,Reversed,4.5502e-05
+100,QuickSort-Max,Average,1.14671e-05
+100,QuickSort-Median,Sorted,9.5504e-05
+100,QuickSort-Median,Reversed,0.000106304
+100,QuickSort-Median,Average,0.000125768
+1000,Bubble Sort,Sorted,4.4e-06
+1000,Bubble Sort,Reversed,0.0082158
+1000,Bubble Sort,Average,0.00574956
+1000,Insertion Sort,Sorted,5.7e-06
+1000,Insertion Sort,Reversed,0.002556
+1000,Insertion Sort,Average,0.00134098
+1000,Selection Sort,Sorted,0.00230988
+1000,Selection Sort,Reversed,0.00198697
+1000,Selection Sort,Average,0.00215681
+1000,Merge Sort,Sorted,0.000454117
+1000,Merge Sort,Reversed,0.000405515
+1000,Merge Sort,Average,0.000592949
+1000,QuickSort-Random,Sorted,0.000106004
+1000,QuickSort-Random,Reversed,0.000148305
+1000,QuickSort-Random,Average,0.000152709
+1000,QuickSort-Min,Sorted,0.00112144
+1000,QuickSort-Min,Reversed,0.00112794
+1000,QuickSort-Min,Average,0.000115414
+1000,QuickSort-Max,Sorted,0.00591792
+1000,QuickSort-Max,Reversed,0.00319392
+1000,QuickSort-Max,Average,0.000133378
+1000,QuickSort-Median,Sorted,0.000977636
+1000,QuickSort-Median,Reversed,0.00107564
+1000,QuickSort-Median,Average,0.00124643
+10000,Bubble Sort,Sorted,3.5502e-05
+10000,Bubble Sort,Reversed,0.692861
+10000,Bubble Sort,Average,0.590056
+10000,Insertion Sort,Sorted,5.6003e-05
+10000,Insertion Sort,Reversed,0.261893
+10000,Insertion Sort,Average,0.141711
+10000,Selection Sort,Sorted,0.211149
+10000,Selection Sort,Reversed,0.415816
+10000,Selection Sort,Average,0.205752
+10000,Merge Sort,Sorted,0.00443398
+10000,Merge Sort,Reversed,0.00408106
+10000,Merge Sort,Average,0.0054019
+10000,QuickSort-Random,Sorted,0.00150766
+10000,QuickSort-Random,Reversed,0.00153756
+10000,QuickSort-Random,Average,0.00204986
+10000,QuickSort-Min,Sorted,0.0714765
+10000,QuickSort-Min,Reversed,0.0786109
+10000,QuickSort-Min,Average,0.0016126
+10000,QuickSort-Max,Sorted,0.590317
+10000,QuickSort-Max,Reversed,0.252902
+10000,QuickSort-Max,Average,0.00186846
+10000,QuickSort-Median,Sorted,0.0118273
+10000,QuickSort-Median,Reversed,0.013034
+10000,QuickSort-Median,Average,0.0154804
