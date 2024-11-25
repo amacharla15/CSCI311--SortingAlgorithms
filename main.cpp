@@ -392,14 +392,5 @@ int main() {
                       quickRandomTimes, quickMinTimes, quickMaxTimes, quickMedianTimes);
     cout << "Results written to 'sorting_results.csv'" << endl;
 
-    for (size_t i = 0; i < sizes.size(); ++i) {
-        cout << "Size: " << sizes[i] << endl;
-        cout << "QuickSort-Random (Sorted): " << quickRandomTimes[i][0] << " seconds" << endl;
-        cout << "QuickSort-Random (Reversed): " << quickRandomTimes[i][1] << " seconds" << endl;
-        cout << "QuickSort-Random (Average): " << quickRandomTimes[i][2] << " seconds" << endl;
-        cout << "QuickSort-Median (Sorted): " << quickMedianTimes[i][0] << " seconds" << endl;
-        cout << "QuickSort-Median (Reversed): " << quickMedianTimes[i][1] << " seconds" << endl;
-        cout << "QuickSort-Median (Average): " << quickMedianTimes[i][2] << " seconds" << endl;
-    }
     return 0;
 }
